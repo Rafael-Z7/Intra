@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+   font-family: 'century-gothic';
+   src: url('./assets/FONTES/century-gothic.ttf');
+   font-weight: 300;
+  }
+
+ 
