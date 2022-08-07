@@ -1,0 +1,29 @@
+width
+
+layoult = 1367x769 100%
+
+header = 17%  232.39x130.73
+
+botao intranet = 265x97 com seta 19.3% x 12.6% / 144x41 sem seta / 10.5%x5.3%  
+
+botao superior = 146x66  10.6% x 8.5%  
+
+botao home = 75x74 5.4x9.6
+
+espaço 1 = 23x59 1.9%x
+espaço 2 = 1.1%
+
+espaço div acima = 33px 4.2%
+
+div portal = 80x101 10.8%x7.7&
+
+<img src={require('./images/botao_superior/imagens.png')}/>
+
+16px=12
+
+desenho = 575x459 42,06% x 59,69%
+
+menu de baixo = 365x553 26.70%x 71.91%
+
+menu item down = 91x121 6.6%x15.73%
+altura distancia menu down = 3.38%
