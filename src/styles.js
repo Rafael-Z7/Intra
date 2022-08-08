@@ -34,6 +34,7 @@ export const Header = styled.div`
     .item_inside{
         width: 100%;
         height: 100%;
+     
     }
 
     .item_inside .arrow{
@@ -57,6 +58,13 @@ export const Header = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
+        outline: none;
+    }
+
+    .container_button h2{
+      
+        outline: none;
+ 
     }
 
     .item_inside .container_button:hover{
