@@ -144,6 +144,7 @@ margin-top: 3vh;
     #image_portal{
         width: 5.4vw;
         height: 75%;
+      
        
     }
 
@@ -155,17 +156,18 @@ margin-top: 3vh;
     #text_box{
         width: 100%;
         height: 33%;
- 
+        
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     #text_box h2{
-        font-family: 'century-gothic' ;
+        font-family: 'century-gothic';
         color: black;
         font-size: 15pt;
-        font-weight: 1000;
+        font-weight: bolder;
+        color: black;
     }
 
 

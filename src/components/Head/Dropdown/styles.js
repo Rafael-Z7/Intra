@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Arrowdown = styled.div`
-
 width:100%;
 height: 33%;
 display: flex;
@@ -41,7 +40,6 @@ margin-top: 2%;
 `
 
 export const Menu_items = styled.div`
-
 width: 10.6vw;
 height: 8.5vh;
 margin-left: 1.1vw;
@@ -63,6 +61,7 @@ margin-top: 8.2%;
  
 
  .container_button{
+
     font-family: 'century-gothic' ;
     color: black;
     font-size: 0.8em;
@@ -107,25 +106,82 @@ margin-top: 8.2%;
     color: white;
 }
 
- 
 
 `
 
 export const PrimalItem = styled.div`
- 
+
     .dropTrue{
+      
+        position: relative;
         display: flex;
         flex-direction:  column;
-        background-color: white;
+        width: 90%;
+        margin-left: 1.1vw;
+        background-color: rgb(29,28,80,0.9);
         list-style: none;
+        border-radius: 20px;
+    }
+
+    .dropTrue #mv{
+        background-color: red;
     }
 
     .dropTrue li{
+ 
+        font-family: century-gothic;
         width: 100%;
-        text-align: center;  
+        display: flex;
+        color: white;
+        justify-content: center;
+       
+
     }
 
+    .dropTrue li:last-child p{
+        border-bottom: 0;
+    }
+    .dropTrue p{ 
+        font-family: 'HalenoirExpanded-Black';
+        height: 1.5rem;
+       border-bottom: 1px solid white;
+       text-align: center;
+       width: 80%;
+       margin-bottom: 2%;
+    }
 
+    .dd-list-item-img{
+        height: 6vh;
+    }
+
+    #PEP_COLOR {
+        color: rgb(255,255,0);
+    }
+
+    #SOUL_COLOR{
+        color: rgb(242,117,8);
+    }
+
+    #SACR_COLOR{
+        color: rgb(25,121,25);
+    }
+    
+    #PORTARIA_COLOR{
+        color: rgb(255,0,0);
+    }
+
+    #KLINIKOS{
+        background-color: rgb(224,206,87,0.9);
+    }
+
+    #EVENTOS{
+        background-color: rgb(224,129,89,0.9);
+    }
+
+    #VITAI{
+        background-color: rgb(0,0,0,0.9);
+    }
+ 
 `
 
  

@@ -1,9 +1,8 @@
 
 body{
   display: flex;
-  background-image: url('./images/background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+ 
+  background-image: linear-gradient(to left bottom , rgb(60, 45, 159) , rgb(73,133,201));
   box-sizing: border-box;
   -webkit-user-select: none;  
   -moz-user-select: none;      
