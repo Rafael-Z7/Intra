@@ -13,9 +13,10 @@ function App() {
     <Main_container>
         <div id='left'>
             <div id='menu_down'>
+             
                   <div className='item_down'>
                     <div className='image_down'>
-                      <img src={require('./images/botao_inferior/gal.png')}/>
+                        <input type="image" src={require('./images/botao_inferior/gal.png')}  />
                     </div>
                     <div className='title_down'>
                         GAL
@@ -25,7 +26,7 @@ function App() {
 
                    <div className='item_down'>
                     <div className='image_down'>
-                      <img src={require('./images/botao_inferior/sus.png')}/>
+                    <input type="image" src={require('./images/botao_inferior/sus.png')}  />
                     </div>
                     <div className='title_down'>
                         CADSUS
@@ -34,7 +35,7 @@ function App() {
 
                    <div className='item_down'>
                     <div className='image_down'>
-                      <img src={require('./images/botao_inferior/webmail.png')}/>
+                    <input type="image" src={require('./images/botao_inferior/webmail.png')}  />
                     </div>
                     <div className='title_down'>
                         WEBMAIL
@@ -43,7 +44,7 @@ function App() {
 
                    <div className='item_down'>
                     <div className='image_down'>
-                      <img src={require('./images/botao_inferior/fase.png')}/>
+                    <input type="image" src={require('./images/botao_inferior/fase.png')}/>
                     </div>
                     <div className='title_down'>
                         FASE
@@ -52,7 +53,7 @@ function App() {
 
                    <div className='item_down'>
                     <div className='image_down'>
-                      <img src={require('./images/botao_inferior/ged.png')}/>
+                    <input type="image" src={require('./images/botao_inferior/ged.png')}/>
                     </div>
                     <div className='title_down'>
                         GED
@@ -61,7 +62,7 @@ function App() {
 
                    <div className='item_down'>
                     <div className='image_down'>
-                      <img src={require('./images/botao_inferior/cid10.png')}/>
+                    <input type="image" src={require('./images/botao_inferior/cid10.png')}  />
                     </div>
                     <div className='title_down'>
                         CID10

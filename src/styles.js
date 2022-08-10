@@ -7,8 +7,9 @@ export const Main_container = styled.div`
     display: flex;
 
     #desenho_container{ 
-        width: 34vw;
-        height: 52vh;
+ 
+        width: 38vw;
+        height: 56vh;
         align-self: start;  
         margin-left: 5%;
     }
@@ -28,6 +29,7 @@ export const Main_container = styled.div`
     }
 
     #transf_container{
+    
         width: 100%;
         height: 50%;
         display: flex;
@@ -79,8 +81,8 @@ export const Main_container = styled.div`
     }
 
     .item_down{
-        width: 6.6vw;
-        height: 15.73vh;
+        width: 6.2vw;
+        height: 15.33vh;
         margin-right: 8%;
     }
 
@@ -88,23 +90,24 @@ export const Main_container = styled.div`
         cursor: pointer;
     }
 
-    .image_down{
-        width: 100%;
-        height: 78.21%;
- 
-       
-    }
+  
 
     .image_down img{
         width: 100%;
         height: 100%;
+ 
+    }
+
+    .item_down input{
+        width: 100%;
+     
     }
 
     .title_down{
         width: 100%;
-        font-family: century-gothic;
+        font-family: gill-sans-mt;
         color: white;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 1000;
         text-align: center;
         height: 21.49%;
