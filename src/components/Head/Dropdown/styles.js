@@ -61,7 +61,6 @@ margin-top: 8.2%;
  
 
  .container_button{
-
     font-family: 'century-gothic' ;
     color: black;
     font-size: 0.8em;
@@ -121,6 +120,7 @@ export const PrimalItem = styled.div`
         background-color: rgb(29,28,80,0.9);
         list-style: none;
         border-radius: 20px;
+
     }
 
     .dropTrue #mv{
@@ -128,7 +128,6 @@ export const PrimalItem = styled.div`
     }
 
     .dropTrue li{
- 
         font-family: century-gothic;
         width: 100%;
         display: flex;
@@ -136,6 +135,10 @@ export const PrimalItem = styled.div`
         justify-content: center;
        
 
+    }
+
+    .dropTrue li:hover{
+        cursor: pointer;
     }
 
     .dropTrue li:last-child p{
@@ -149,6 +152,8 @@ export const PrimalItem = styled.div`
        width: 80%;
        margin-bottom: 2%;
     }
+
+  
 
     .dd-list-item-img{
         height: 6vh;

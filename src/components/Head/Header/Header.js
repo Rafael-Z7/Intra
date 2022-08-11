@@ -9,12 +9,12 @@ const Header_component = () =>{
     return(
         <HeaderTag>
        <div className='intranetLogo'>
-       <img src={require('../../../images/botao_superior/intranet.png')}/>
+       <input type="image" src={require('../../../images/botao_superior/intranet.png')} />
  
        </div>
          <nav id='nav'>
-            <Drop_down   idd='arrowImagem' title='IMAGEM' idContainer='imagem_button' list_id='li_imagem'/>
             <Drop_down   idd='arrowMv' title='' type='mv' idContainer='mv_button' list_id='li_mv'/>
+            <Drop_down   idd='arrowImagem' title='IMAGEM' idContainer='imagem_button' list_id='li_imagem'/>
             <Drop_down   idd='arrowFarmacia' title='FARMÁCIA'  idContainer='farmacia_button' list_id='li_farmacia'/>
             <Drop_down   idd='arrowKlinikos' title='KLINIKOS' idContainer='klinikos_button'  list_id='li_klinikos'/>
             <Drop_down   idd='arrowEventos' title='EVENTOS'  idContainer='eventos_button'  list_id='li_eventos'/>

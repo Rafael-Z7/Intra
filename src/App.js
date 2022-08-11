@@ -1,5 +1,6 @@
 import './App.css';
 import {Portal, Arrowdown, Main_container, ListUL} from './styles';
+import { FaCog } from 'react-icons/fa';
 import {useState} from 'react';
  
 import Header from  './components/Head/Header/Header';
@@ -96,15 +97,6 @@ function App() {
                     </div>
                    </div>
 
-                   <div className='item_down' id='chamado_id'>
-                    <div className='image_down'>
-                      <img src={require('./images/botao_inferior/chamado.png')}/>
-                    </div>
-                    <div className='title_down'>
-                        CHAMADO
-                    </div>
-                   </div>
-
                    
             </div>
         </div>
@@ -116,7 +108,11 @@ function App() {
           </div>
           <div id='transf_container'>
               <div id='transf_button'>
-                   SOLICITAÇÃO DE TRANSFERÊNCIA - HEJBC
+                  <FaCog size={28} style={{ marginLeft: '1vw' }} />
+                   <span>
+                    ABERTURA DE CHAMADOS
+                   </span>
+                   
               </div>
            </div>
         </div>

@@ -12,9 +12,10 @@ export const HeaderTag = styled.div`
          height: 12.3vh;
     }
 
-    .intranetLogo img {
+    .intranetLogo input {
         width: 100%;
         height: 100%;
+        outline:none;
    }
 
     #nav{
@@ -64,7 +65,6 @@ export const HeaderTag = styled.div`
     }
 
     .container_button h2{
-
         outline: none;
  
     }
@@ -139,12 +139,12 @@ justify-content: center;
 flex-direction: column;
 margin-left: 3vw;
 margin-top: 3vh;
- 
+
  
     #image_portal{
         width: 5.4vw;
         height: 75%;
-      
+        outline: none;
        
     }
 
@@ -170,6 +170,14 @@ margin-top: 3vh;
         color: black;
     }
 
+   
+
+    @media (max-width: 1374px){
+        #image_portal{
+           width: 80px;
+           
+        }
+    }
 
 `
  

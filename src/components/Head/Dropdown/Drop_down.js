@@ -187,8 +187,6 @@ function Drop_down(props){
                   ))}
                 </div>
               </div>
-
-       
         </PrimalItem>
         
             

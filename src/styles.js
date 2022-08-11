@@ -7,7 +7,6 @@ export const Main_container = styled.div`
     display: flex;
 
     #desenho_container{ 
- 
         width: 38vw;
         height: 56vh;
         align-self: start;  
@@ -16,10 +15,8 @@ export const Main_container = styled.div`
 
     #desenho_container img{
         width: 34vw;
-        height: 51,69vh;
-         
+        height: 51,69vh;  
     }
-
 
     #right{
         width: 54%;
@@ -45,7 +42,7 @@ export const Main_container = styled.div`
         font-family: 'century-gothic';
         font-weight: bolder;
         font-size: 0.9rem;
-        width: 40%;
+        width: 35%;
         height: 20%;
         background-color: red;
         margin-left: 25%;
@@ -53,8 +50,14 @@ export const Main_container = styled.div`
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
-        justify-content: center;
-        background-color: rgb(255,102,0);
+        justify-content: flex-start;
+        background-color: #BA1F45;
+        color: #f2f2f2;
+        font-weight: 9px;
+
+        > span {
+            margin-left: .5vw;
+        }
     }
 
     #right img{
@@ -68,6 +71,7 @@ export const Main_container = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
+       
     }
 
     #menu_down{
@@ -84,6 +88,7 @@ export const Main_container = styled.div`
         width: 6.2vw;
         height: 15.33vh;
         margin-right: 8%;
+       
     }
 
     .item_down:hover{
@@ -100,7 +105,7 @@ export const Main_container = styled.div`
 
     .item_down input{
         width: 100%;
-     
+        outline: none;
     }
 
     .title_down{
@@ -116,6 +121,45 @@ export const Main_container = styled.div`
     #chamado_id{
          margin-left: 33%;
     }
+
+
+    @media (max-width: 1334px){
+        #desenho_container{ 
+            width: 45vw;
+            height: 56vh;
+            align-self: start;  
+            margin-left: 5%;
+        }
+    }
+    
+    @media (max-width: 1076px){
+        #desenho_container{ 
+            width: 40vw;
+            height: 51vh;
+        }
+    }
+
+    @media (max-width: 1039px){
+        #desenho_container{ 
+            width: 39vw;
+            height: 50vh;
+        }
+    }
+
+    @media (max-width: 961px){
+        #desenho_container{ 
+            width: 35vw;
+            height: 45vh;
+        }
+    }
+
+    @media (max-width: 1341px){
+        #transf_button{
+             width: 300px;
+        }
+    }
+
+  
 
 
 `
