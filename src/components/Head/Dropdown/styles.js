@@ -111,7 +111,6 @@ margin-top: 8.2%;
 export const PrimalItem = styled.div`
 
     .dropTrue{
-      
         position: relative;
         display: flex;
         flex-direction:  column;
